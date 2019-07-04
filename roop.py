@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: UTF-8
-
+#test
 import os
 import paramiko
 import scp
@@ -37,7 +37,8 @@ def judge_entry_or_exit(data):
     if error_flag == "ERROR":
         return "ERROR"
     else:
-        
+
+
 
 
 
@@ -144,6 +145,7 @@ if __name__ == "__main__":
         for i in range(len(data)):
             print(data[i])
 
+
         judge_entry_or_exit(data)
 
-        #
+
